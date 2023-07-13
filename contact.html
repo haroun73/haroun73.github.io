@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet"  href="core/extention.css">
+</head>
+<body>
+  <header>
+    <h1>Contactez-nous</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="voitures.html">Voitures disponibles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <section>
+    <h2>remplire formulaire</h2>
+    <p>Vous pouvez nous contacter à remplire ce formulaire suivant:</p>
+    <form action="/traiter_formulaire" method="post">
+      <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Envoyer">
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2023 Contactez-nous. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
