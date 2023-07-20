@@ -1,0 +1,85 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 5;
+    padding: 5;
+  }
+  
+  /* Styles spécifiques */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d47777;
+  }
+  
+  header {
+    background-color: #19eab6;
+    color: #4b0505;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #b9f012;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    background-color: #530d0d;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .car-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .car-item {
+    width: 300px;
+    margin: 20px;
+    background-color: #f86b6b;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .car-item h3 {
+    color: #a51f1f;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .car-item p {
+    color: #2a0a0a;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding:
