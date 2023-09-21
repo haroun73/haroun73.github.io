@@ -10,20 +10,20 @@ body, h1, h2, h3, p, ul, li {
   }
   
   header {
-    background-color: #19eab6;
-    color: #4b0505;
+    background-color: #7eea19;
+    color: #f0f80ef6;
     padding: 20px;
     text-align: center;
   }
   
   nav {
-    background-color: #b9f012;
+    background-color: #83aa0e;
   }
   
   nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
   }
   
   nav ul li {
@@ -34,7 +34,7 @@ body, h1, h2, h3, p, ul, li {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #333;
+    color: #920a0a;
   }
   
   nav ul li a:hover {
@@ -42,12 +42,12 @@ body, h1, h2, h3, p, ul, li {
   }
   
   section {
-    padding: 20px;
+    padding: 30px;
   }
   
   .car-listing {
-    display: flex;
-    flex-wrap: wrap;
+    display:flexbox;
+    flex-wrap: wrap-reverse;
     justify-content: center;
   }
   
@@ -58,7 +58,7 @@ body, h1, h2, h3, p, ul, li {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(218, 197, 197, 0.63);
   }
   
   .car-item img {
@@ -75,11 +75,11 @@ body, h1, h2, h3, p, ul, li {
   }
   
   .car-item p {
-    color: #2a0a0a;
+    color: #3710ba;
     margin-bottom: 5px;
   }
   
   footer {
-    background-color: #333;
+    background-color: #730723;
     color: #fff;
     padding:
