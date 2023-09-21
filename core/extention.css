@@ -6,7 +6,8 @@ body, h1, h2, h3, p, ul, li {
   /* Styles spécifiques */
   body {
     font-family: Arial, sans-serif;
-    background-color: #d47777;
+    background-color: #e8d0d0;
+    clip-rule: unset;
   }
   
   header {
@@ -17,7 +18,9 @@ body, h1, h2, h3, p, ul, li {
   }
   
   nav {
-    background-color: #83aa0e;
+    background-color: #faa3e2;
+    counter-increment: initial;
+    text-align: center;
   }
   
   nav ul {
